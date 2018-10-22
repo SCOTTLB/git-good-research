@@ -8,6 +8,7 @@ A workshop for how to use git in a research environment
 ## Collaboration 
 
 ## Feedback and Review
+### Approvals
 
 ## Traceablity
 
