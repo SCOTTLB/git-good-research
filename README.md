@@ -3,7 +3,7 @@ A workshop for how to use git in a research environment
 
 ## Git Basics
 
-## Lab Books
+## Lab Books/Markdown
 
 ## Collaboration 
 
