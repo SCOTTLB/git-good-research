@@ -1,7 +1,14 @@
 # git-good-research
 A workshop for how to use git in a research environment
-![git flow](/img/Capture.PNG)
+<img src="/img/prgit-flow.svg" width="500"/>
 ## Git Basics
+
+- Master is your main branch
+- Create a new branch
+- Make your changes
+- Pull request
+- Review
+- Merge
 
 ## Lab Books/Markdown
 
