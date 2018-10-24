@@ -10,8 +10,11 @@ A workshop for how to use git in a research environment
 ## Feedback and Review
 ### Approvals
 
-## Traceablity
+# projects
 
+## Traceablity
+conf branch
+talk branch
 ## Overleaf
 
 ## Resources
