@@ -1,0 +1,15 @@
+{
+  "name": "git-good-research",
+  "version": "1.0.0",
+  "description": "MDX slide deck for the git-good-research workshop",
+  "main": "index.js",
+  "repository": "git@github.com:SCOTTLB/git-good-research.git",
+  "author": "SCOTTLB <scottbean@hotmail.co.uk>",
+  "license": "MIT",
+  "devDependencies": {
+    "mdx-deck": "^1.7.7"
+  },
+  "scripts": {
+    "start": "mdx-deck deck.mdx"
+  }
+}
