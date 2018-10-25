@@ -40,3 +40,4 @@ talk branch
 
 ## Resources
 https://uc3.cdlib.org/2014/05/05/github-a-primer-for-researchers/
+http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/
