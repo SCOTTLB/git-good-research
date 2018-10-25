@@ -1,6 +1,6 @@
 export { dark as theme } from 'mdx-deck/themes'
-import { SplitRight } from 'mdx-deck/layouts'
-import { Notes } from 'mdx-deck'
+import { SplitRight, Split } from 'mdx-deck/layouts'
+import { Notes, Appear } from 'mdx-deck'
 
 # Git good research
 by Scott Bean
@@ -8,6 +8,7 @@ by Scott Bean
 # About me
 - 3rd year Security & forensics
 - GitHub Campus Expert 🚩
+
 ---
 # What is git?
 ![](/img/git.png)
@@ -18,21 +19,31 @@ by Scott Bean
 - Built for software development
 - So many more uses now
 ```
+
 ---
 ![](/img/git-repo-struct.png)
 ```notes
-- .git folder in each repo
+- Repository
+- .git folder in each project folder
 - holds git related stuff
 ```
 ---
+
 ![](/img/track-change.png)
+```notes
+git tracks changes
+```
 ---
+
 # How does git work?
 ![](/img/git-flow.svg)
 ```notes
 - branches
 - master - main branch
 - Dev / feature branches for changes or revisions
+- made of commits
+- a commit is a submitted change
+- commits have messages
 ```
 ---
 
@@ -47,14 +58,29 @@ export default SplitRight
 - Review
 - Merge
 ---
-# Pull requests
 
-<img src="/img/pr.png" width="500"/>
+export default Split
+
+<img src="/img/pr.png" width="700"/>
+
+# Pull requests
+<ul>
+    <Appear>
+        <li> Pull request description</li>
+        <li>Commits in PR</li>
+        <li>Label the PR</li>
+        <li>Comments</li>
+        <li>PR referenced in an issue</li>
+        <li>Suggested changes</li>
+    </Appear>
+</ul>
 
 ```notes
 - Pull requests allow discussion and collaberation before merging to master
+- discuss top down
 ```
 ---
+
 # Pull requests
 
 <img src="/img/line-review.png" width="600"/>
@@ -63,17 +89,59 @@ export default SplitRight
 - You can comment line by line, easy to accept suggested changes
 ```
 ---
+
+# Issues
+<img src="/img/issue.png" width="700"/>
+
+```notes
+- Issues discussion before a pull request
+- or issues with a current 'release'
+```
+
+---
+# Collaboration and GitHub
+GitHub encourages collaboration with:
+
+- Issues
+- Pull requests
+- Feedback and review
+
+
+```notes
+- Toolset to collaborate
+- Feedback is a key component
+- Reviews and approvals (supervisors)
+```
+
+---
 export default SplitRight
 
 ![](/img/slides.png)
-
 # Markdown
 Plain text markdown language
+- **format** ~~text~~
 - write notes
 - write slides
 - build webpages
 - GitHub documentation
 
+```notes
+- format text
+- these slides are written in markdown (mdx-deck)
+- markdown to pdfs
+- supports basic html
+- add tables etc
+```
+
+---
+# Traceablility
+
+- Each commit is traceable and visable
+- Roll back to previous commits
+```notes
+- See who has edited what
+- what they have done
+```
 ---
 # Get in touch
 📨 s.bean@napier.ac.uk

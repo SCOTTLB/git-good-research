@@ -1,6 +1,6 @@
 # git-good-research
 A workshop for how to use git in a research environment
-<img src="/img/prgit-flow.svg" width="500"/>
+<img src="/img/git-flow.svg" width="500"/>
 ## Git Basics
 
 - Master is your main branch
@@ -11,13 +11,27 @@ A workshop for how to use git in a research environment
 - Merge
 
 ## Lab Books/Markdown
+Markdown is a super versatile plain text markdown language.
+It supports:
+### headings
+
+- bullet points
+  
+| Tables   	|      Are      	|  Cool 	|
+|----------	|:-------------:	|------:	|
+| col 1 is 	|  left-aligned 	| $1600 	|
+| col 2 is 	|    centered   	|   $12 	|
+| col 3 is 	| right-aligned 	|    $1 	|
+
+and loads more such as images and code snippets
 
 ## Collaboration 
+Using issues and pull requests makes it easy to collaborate
 
 ## Feedback and Review
 ### Approvals
 
-# projects
+## projects
 
 ## Traceablity
 conf branch
