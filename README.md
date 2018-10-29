@@ -14,7 +14,9 @@ A workshop for how to use git in a research environment
 Markdown is a super versatile plain text markdown language.
 It supports a range of formatting options, you can see more [here!](https://guides.github.com/features/mastering-markdown/)
 
-Markdown is widely supported on many services and you can use it to write notes, make slide decks using [mdx-deck](https://github.com/jxnblk/mdx-deck) and can easily be converted to pdfs. This readme is written in markdown!
+Markdown is widely supported on many services and you can use it to write notes, make slide decks using [mdx-deck](https://github.com/jxnblk/mdx-deck), websites and can easily be converted to pdfs. This readme is written in markdown!
+
+Writing lab notebooks and manuals is great in markdown as its clean and clear, its also easy to edit and share.
 
 ## Collaboration 
 Using issues and pull requests makes it easy to collaborate. Open issues to raise point, discuss new features or to comment on existing work. Use pull requests to comment on changes **before** they are merged
