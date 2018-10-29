@@ -3,7 +3,9 @@ import { SplitRight, Split } from 'mdx-deck/layouts'
 import { Notes, Appear } from 'mdx-deck'
 
 # Git good research
-by Scott Bean
+## Implementing version control into your research workflow
+
+-Scott Bean
 ---
 # About me
 - 3rd year Security & forensics
@@ -14,10 +16,10 @@ by Scott Bean
 ![](/img/git.png)
 
 ```notes
-- version control
+- widely used version control
+- distrabuted, every copy of the code has full commit history
 - Track changes
-- Built for software development
-- So many more uses now
+- Not just for software development
 ```
 
 ---
@@ -40,11 +42,11 @@ git tracks changes
 ```notes
 - branches
 - master - main branch
-- Dev / feature branches for changes or revisions
+- Dev/feature branches for changes or revisions
 - made of commits
 - a commit is a submitted change
 - commits have messages
-- brances for diffrent confrence papers
+- EXAMPLE: branches for different conference papers
 ```
 ---
 
@@ -68,7 +70,7 @@ export default Split
 <ul>
     <Appear>
         <li> Pull request description</li>
-        <li>Commits in PR</li>
+        <li>Latest commit in PR</li>
         <li>Label the PR</li>
         <li>Comments</li>
         <li>PR referenced in an issue</li>
@@ -77,7 +79,7 @@ export default Split
 </ul>
 
 ```notes
-- Pull requests allow discussion and collaberation before merging to master
+- Pull requests allow discussion and collaboration before merging to master
 - discuss top down
 ```
 ---
@@ -95,7 +97,7 @@ export default Split
 <img src="/img/issue.png" width="700"/>
 
 ```notes
-- Issues discussion before a pull request
+- Issues: discussion before a pull request
 - or issues with a current 'release'
 ```
 
@@ -123,7 +125,7 @@ Plain text markdown language
 - **format** ~~text~~
 - write notes
 - write slides
-- build webpages
+- build web pages
 - GitHub documentation
 
 ```notes
@@ -135,9 +137,9 @@ Plain text markdown language
 ```
 
 ---
-# Traceablility
+# Traceability
 
-- Each commit is traceable and visable
+- Each commit is traceable and visible
 - Roll back to previous commits
 ```notes
 - See who has edited what
@@ -147,6 +149,9 @@ Plain text markdown language
 # Projects
 - Kanban style project management
 - Automatically move cards with issues and PR
+```notes
+- Projects are another feature of github
+```
 ---
 ![](/img/proj.png)
 ```notes
