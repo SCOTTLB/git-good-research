@@ -33,4 +33,9 @@ Overleaf has excellent GitHub intigrations, allowing you to push and pull all yo
 
 ## Resources
 https://uc3.cdlib.org/2014/05/05/github-a-primer-for-researchers/
+
 http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/
+
+https://guides.github.com/features/mastering-markdown/
+
+https://ohshitgit.com/
