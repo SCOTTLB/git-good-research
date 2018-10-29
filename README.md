@@ -12,31 +12,24 @@ A workshop for how to use git in a research environment
 
 ## Lab Books/Markdown
 Markdown is a super versatile plain text markdown language.
-It supports:
-### headings
+It supports a range of formatting options, you can see more [here!](https://guides.github.com/features/mastering-markdown/)
 
-- bullet points
-  
-| Tables   	|      Are      	|  Cool 	|
-|----------	|:-------------:	|------:	|
-| col 1 is 	|  left-aligned 	| $1600 	|
-| col 2 is 	|    centered   	|   $12 	|
-| col 3 is 	| right-aligned 	|    $1 	|
-
-and loads more such as images and code snippets
+Markdown is widely supported on many services and you can use it to write notes, make slide decks using [mdx-deck](https://github.com/jxnblk/mdx-deck) and can easily be converted to pdfs. This readme is written in markdown!
 
 ## Collaboration 
-Using issues and pull requests makes it easy to collaborate
+Using issues and pull requests makes it easy to collaborate. Open issues to raise point, discuss new features or to comment on existing work. Use pull requests to comment on changes **before** they are merged
 
 ## Feedback and Review
 ### Approvals
+GitHub can be set up so pull requests require approval before merging is allowed, you can also request a reviewer to approve your changes. 
 
-## projects
+## Projects
+Projects are kanban style bords for your repos. They can automatically open new cards for new issues and pull requests and allow you to mange your project easily.
 
 ## Traceablity
-conf branch
-talk branch
+You can always check who changed what. Every commit has a user that made the changes and a full history is avalible in every repo copy
 ## Overleaf
+Overleaf has excellent GitHub intigrations, allowing you to push and pull all your changes to a central repo. 
 
 ## Resources
 https://uc3.cdlib.org/2014/05/05/github-a-primer-for-researchers/
